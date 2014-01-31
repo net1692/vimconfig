@@ -41,6 +41,8 @@ Bundle 'https://github.com/dhruvasagar/vim-table-mode.git'
 "주석해제: \<space>
 Bundle 'The-NERD-Commenter'
 Bundle 'AutoComplPop'
+Bundle 'git://github.com/altercation/vim-colors-solarized.git'
+Bundle 'https://github.com/dhruvasagar/vim-table-mode.git'
 
 filetype plugin indent on     " required!
 
@@ -265,3 +267,19 @@ set tags=tags;/
 "= Check Symbol
 "====================================================
 source ~/vimconfig/plugins/checksymbol.vim
+
+"====================================================
+"= solarized scheme
+"====================================================
+syntax enable
+set t_Co=256
+let g:solarized_termcolors=256
+colorscheme solarized
+
+"====================================================
+"= solarized scheme
+"====================================================
+syntax enable
+set t_Co=256
+let g:solarized_termcolors=256
+colorscheme solarized
