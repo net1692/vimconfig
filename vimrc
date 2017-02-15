@@ -31,8 +31,8 @@ Bundle 'The-NERD-tree'
 Bundle 'taglist.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'DirDiff.vim'
-Bundle 'git://github.com/wesleyche/SrcExpl.git'
-Bundle 'git://github.com/altercation/vim-colors-solarized.git'
+Bundle 'https://github.com/wesleyche/SrcExpl.git'
+Bundle 'https://github.com/altercation/vim-colors-solarized.git'
 
 filetype plugin indent on     " required!
 "
